@@ -1,0 +1,336 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    height: 100vh;
+    margin: auto;
+
+
+
+}
+
+header .navbar-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    color: rgba(33, 36, 61, 1);
+    margin-inline: auto;
+    padding-block: 1rem;
+}
+
+header .navbar-container .nav-list ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+header .navbar-container .nav-list ul li {
+    list-style-type: none;
+
+}
+
+header .navbar-container .nav-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+main .konten-utama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .konten-utama article {
+    flex: 1;
+    color: rgba(33, 36, 61, 1);
+
+}
+
+main .konten-utama article h1 {
+
+    font-size: 44px;
+    line-height: 60px;
+}
+
+main .konten-utama article p {
+    font-size: 16px;
+    line-height: 23.5px;
+}
+
+main .konten-utama article button {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29.38px;
+    color: white;
+    text-transform: capitalize;
+    background-color: rgba(255, 100, 100, 1);
+    border: 3px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+}
+
+main .konten-utama article button:hover {
+    background-color: transparent;
+    color: rgba(33, 36, 61, 1);
+    border: 3px solid rgba(33, 36, 61, 1);
+}
+
+
+main .konten-utama .konten-gambar {
+    display: flex;
+    flex: 1;
+}
+
+main .konten-utama .konten-gambar img {
+    width: 300px;
+    min-width: 150px;
+    margin: auto;
+    border: 2px solid rgba(33, 36, 61, 1);
+    background-color: rgba(33, 36, 61, 1);
+    border-radius: 999px;
+}
+
+main .konten-tengah {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 247, 250);
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+main .konten-tengah .navigasi-recent-post {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 20px;
+}
+
+main .konten-tengah .navigasi-recent-post a {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+main .konten-tengah .post {
+    display: flex;
+    gap: 40px 50px;
+    padding: 20px;
+}
+
+main .konten-tengah article {
+
+    background-color: white;
+    background-color: white;
+    padding: 10px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px; */
+
+}
+
+main .konten-tengah article .pemisah {
+    margin-inline: 20px;
+}
+main .konten-bawah .navigasi-recent-post {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-inline: 20px;
+}
+main .konten-bawah .konten {
+    display: flex;
+    flex-direction: column nowrap;
+    flex: 5;
+    gap: 20px;
+
+}
+
+
+
+main .konten-bawah article {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+
+}
+
+main .konten-bawah article section {
+    border-bottom: 3px solid rgba(53, 61, 64, 0.222);
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px; */
+}
+
+aside {
+    display: flex;
+    flex: 1;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    height: 600px;
+    text-align: center;
+    border-left: 3px solid rgba(53, 61, 64, 0.222);
+    border-right: 3px solid rgba(53, 61, 64, 0.222);
+
+
+}
+
+aside img {
+    width: 150px;
+    background-color: black;
+
+
+}
+
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+
+
+}
+
+footer .social-media ul {
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 0;
+    gap: 20px;
+}
+
+
+footer .social-media li {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer .social-media li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgba(33, 36, 61, 1);
+    transition: all 0.1s ease-in-out;
+
+}
+
+footer div p {
+
+    color: rgba(33, 36, 61, 1);
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+
+
+}
+
+@media screen and (max-width: 768px) {
+    header .navbar-container {
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    header .navbar-container .nav-list ul {
+        padding-right: 0;
+    }
+
+    main .konten-utama {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    main .konten-utama article {
+        order: 2;
+        text-align: center;
+
+    }
+
+    main .konten-utama .konten-gambar {
+        order: 1;
+    }
+
+    main .konten-tengah .post {
+        display: flex;
+        flex-direction: column;
+        gap: 40px 50px;
+        padding: 20px;
+    }
+
+    main .konten-bawah .konten{
+        display: flex;
+        flex-direction: column;
+        flex: 5;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    main .konten-bawah .konten article section {
+        border-bottom: 3px solid rgba(53, 61, 64, 0.222);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+       border-radius: 5px; */
+    }
+
+    main .konten-bawah .konten article section.dua {
+        display: none;
+    }
+
+    main .konten-bawah .konten article section.tiga {
+        display: none;
+    }
+    .konten aside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    main .konten-bawah .navigasi-recent-post {
+        justify-content: center;
+    }
+}
